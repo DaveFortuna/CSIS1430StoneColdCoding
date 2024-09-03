@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="https://www.stonecoldprofessor.com/pizza-order.php"
+      method="post"
+    >
+      <label for="psize">Pizza Size</label>
+      <select id="psize" name="size" value="psize">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="X-Large">X-Large</option>
+      </select>
+      <br />
+
+      <h1>Toppings</h1>
+
+      <input type="checkbox" id="onion" value="onion" name="toppings[]" />
+      <label for="onion">Onion</label>
+      <input
+        type="checkbox"
+        id="pepperoni"
+        value="pepperoni"
+        name="toppings[]"
+      />
+      <label for="pepperoni">Pepperoni </label>
+
+      <input type="checkbox" id="burrito" value="burrito" name="toppings[]" />
+      <label for="burrito">Burrito</label>
+      <input type="checkbox" id="cheese" value="cheese" name="toppings[]" />
+      <label for="cheese">Cheese</label>
+      <br />
+      <input type="checkbox" id="olive" value="olive" name="toppings[]" />
+      <label for="Olive">Olive</label>
+      <input
+        type="checkbox"
+        id="ice cream"
+        value="ice cream"
+        name="toppings[]"
+      />
+      <lable for="ice cream">Ice Cream</lable>
+      <input type="checkbox" id="mushroom" value="mushroom" name="toppings[]" />
+      <label for="mushroom">Mushroom</label>
+      <input type="checkbox" id="bacon" value="bacon" name="toppings[]" />
+      <label for="bacon">Bacon</label>
+
+      <br />
+      <input type="text" id="fname" name="fname" placeholder=" Name" />
+      <br />
+      <input type="text" id="fname" name="fname" placeholder="First Name" />
+      <br />
+      <input type="text" id="fname" name="fname" placeholder="First Name" />
+      <br />
+      <input type="text" id="fname" name="fname" placeholder="First Name" />
+      <br />
+      <input type="text" id="fname" name="fname" placeholder="First Name" />
+      <br />
+
+      <input type="submit" value="submit" />
+    </form>
+    <h1>Order</h1>
+  </body>
+</html>
