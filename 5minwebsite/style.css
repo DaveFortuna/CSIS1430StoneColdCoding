@@ -1,0 +1,16 @@
+* {
+}
+
+h1 {
+  color: indianred;
+}
+
+ul {
+  border: double;
+  border-color: blueviolet;
+  border-width: 10px;
+}
+
+ul li {
+  color: purple;
+}

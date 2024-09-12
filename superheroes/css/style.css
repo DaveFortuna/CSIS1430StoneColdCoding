@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Guerrilla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dc {
+  border-color: maroon;
+  border-width: 20px;
+  border-radius: 30px;
+  width: 950px;
+  margin: auto;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  background-color: mediumslateblue;
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2017/12/Justice-League-roster-wallpaper-by-Alex-Ross.jpg?q=50&fit=crop&w=1100&h=618&dpr=1.5);
+  background-size: auto;
+}
+.dc h1 {
+  border-radius: 20%;
+  padding: 5px;
+  border: solid;
+  border-color: maroon;
+  border-width: 15px;
+  text-shadow: 2px 2px 4px #c40b0b;
+  font-size: 60px;
+  font-family: "Dela Gothic One", sans-serif;
+  background-color: #0277f1;
+  color: black;
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/DC-Comics-Logo.jpg);
+  background-size: 145px 90px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.batman:hover,
+.wonder-woman:hover,
+.iron-man:hover,
+.spiderman:hover,
+.superman:hover,
+.thor:hover {
+  width: 175px;
+  height: 350px;
+}
+
+.batman,
+.iron-man,
+.spiderman,
+.superman,
+.thor,
+.wonder-woman {
+  overflow: auto;
+  box-sizing: content-box;
+  border-width: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 26px;
+  width: 600px;
+  height: auto;
+  margin: 30px;
+  transition: width 1s;
+}
+
+.wonder-woman {
+  border-color: darkorchid;
+  border-style: double;
+  background-color: rgb(0, 55, 255);
+}
+.superman {
+  border-color: blue;
+  border-style: solid;
+  background-color: lightcoral;
+  font-family: "Bebas Neue";
+}
+.marvel {
+  border-color: maroon;
+  border-width: 20px;
+  border-radius: 30px;
+  width: 950px;
+  margin: auto;
+  border-style: dashed;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  background-color: mediumslateblue;
+  background-image: url(https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/lkqxfssfmz15w2i8oxtj.jpg);
+  background-size: auto;
+}
+.marvel h1 {
+  border-radius: 20%;
+  padding: 5px;
+  border: solid;
+  border-color: rgb(220, 76, 14);
+  border-width: 12px;
+  font-size: 60px;
+  font-family: "Dela Gothic One", sans-serif;
+  background-color: black;
+  color: rgb(0, 221, 255);
+  background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2016/07/marvel-studios-2016-logo-slice.jpg?q=50&fit=crop&w=1100&h=618&dpr=1.5);
+  background-size: 165px 110px;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-position-x: 717px;
+}
+.spiderman {
+  border-color: brown;
+  border-style: solid;
+  background-color: rgb(7, 93, 93);
+}
+.iron-man {
+  border-color: orangered;
+  border-style: double;
+  background-color: gold;
+}
+.thor {
+  border-color: whitesmoke;
+  border-style: ridge;
+  background-color: #ae8123;
+  font-family: "protest Guerrilla";
+}
