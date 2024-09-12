@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <ul>
@@ -45,35 +46,41 @@
       <br />
 
       <h1>Toppings</h1>
+      <div>
+        <input type="checkbox" id="onion" value="onion" name="toppings[]" />
+        <label for="onion">Onion</label>
+        <input
+          type="checkbox"
+          id="pepperoni"
+          value="pepperoni"
+          name="toppings[]"
+        />
+        <label for="pepperoni">Pepperoni </label>
 
-      <input type="checkbox" id="onion" value="onion" name="toppings[]" />
-      <label for="onion">Onion</label>
-      <input
-        type="checkbox"
-        id="pepperoni"
-        value="pepperoni"
-        name="toppings[]"
-      />
-      <label for="pepperoni">Pepperoni </label>
-
-      <input type="checkbox" id="burrito" value="burrito" name="toppings[]" />
-      <label for="burrito">Burrito</label>
-      <input type="checkbox" id="cheese" value="cheese" name="toppings[]" />
-      <label for="cheese">Cheese</label>
-      <br />
-      <input type="checkbox" id="olive" value="olive" name="toppings[]" />
-      <label for="Olive">Olive</label>
-      <input
-        type="checkbox"
-        id="ice cream"
-        value="ice cream"
-        name="toppings[]"
-      />
-      <lable for="ice cream">Ice Cream</lable>
-      <input type="checkbox" id="mushroom" value="mushroom" name="toppings[]" />
-      <label for="mushroom">Mushroom</label>
-      <input type="checkbox" id="bacon" value="bacon" name="toppings[]" />
-      <label for="bacon">Bacon</label>
+        <input type="checkbox" id="burrito" value="burrito" name="toppings[]" />
+        <label for="burrito">Burrito</label>
+        <input type="checkbox" id="cheese" value="cheese" name="toppings[]" />
+        <label for="cheese">Cheese</label>
+        <br />
+        <input type="checkbox" id="olive" value="olive" name="toppings[]" />
+        <label for="Olive">Olive</label>
+        <input
+          type="checkbox"
+          id="ice cream"
+          value="ice cream"
+          name="toppings[]"
+        />
+        <lable for="ice cream">Ice Cream</lable>
+        <input
+          type="checkbox"
+          id="mushroom"
+          value="mushroom"
+          name="toppings[]"
+        />
+        <label for="mushroom">Mushroom</label>
+        <input type="checkbox" id="bacon" value="bacon" name="toppings[]" />
+        <label for="bacon">Bacon</label>
+      </div>
 
       <br />
       <br />
@@ -116,7 +123,59 @@
       <br />
 
       <label for="state">State</label>
-      <input type="text" id="state" name="state" placeholder="State" />
+      <select id="state" name="state" value="state">
+        <option value="al">Alabama</option>
+        <option value="ak">Alaska</option>
+        <option value="az">Arizona</option>
+        <option value="ar">Arkansas</option>
+        <option value="ca">California</option>
+        <option value="co">Colorado</option>
+        <option value="ct">Conneticut</option>
+        <option value="de">Delaware</option>
+        <option value="fl">Florida</option>
+        <option value="ga">Georgia</option>
+        <option value="hi">Hawaii</option>
+        <option value="id">Idaho</option>
+        <option value="il">Illinois</option>
+        <option value="in">Indiana</option>
+        <option value="ia">Iowa</option>
+        <option value="ks">Kansas</option>
+        <option value="ky">Kentucky</option>
+        <option value="la">Louisiana</option>
+        <option value="me">Maine</option>
+        <option value="md">Maryland</option>
+        <option value="ma">Massachusetts</option>
+        <option value="mi">Michigan</option>
+        <option value="mn">Minnesota</option>
+        <option value="ms">Mississippi</option>
+        <option value="mo">Missouri</option>
+        <option value="mt">Montana</option>
+        <option value="ne">Nebraska</option>
+        <option value="nv">Nevada</option>
+        <option value="nh">New Hampshire</option>
+        <option value="nj">New Jersey</option>
+        <option value="nm">New Mexico</option>
+        <option value="ny">New York</option>
+        <option value="nc">North Carolina</option>
+        <option value="nd">North Dakota</option>
+        <option value="oh">Ohio</option>
+        <option value="ok">Oklahoma</option>
+        <option value="or">Orgeon</option>
+        <option value="pa">Pennslyvania</option>
+        <option value="ri">Rhode Island</option>
+        <option value="sc">South Carolina</option>
+        <option value="sd">South Dakota</option>
+        <option value="tn">Tennessee</option>
+        <option value="ts">Texas</option>
+        <option selected="selected" value="ut">Utah</option>
+        <option value="vt">Vermont</option>
+        <option value="va">Virgina</option>
+        <option value="wa">Washington</option>
+        <option value="wv">West Virgina</option>
+        <option value="wi">Wisconsin</option>
+        <option value="wy">Wyoming</option>
+      </select>
+
       <br />
       <label for="zip">Zip Code</label>
       <input type="text" id="zip" name="zip" placeholder="Zip Code" />
