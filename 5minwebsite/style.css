@@ -1,16 +1,13 @@
-* {
+div {
+  background-color: blue;
+  color: blanchedalmond;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  float: right;
 }
-
-h1 {
-  color: indianred;
-}
-
-ul {
-  border: double;
-  border-color: blueviolet;
-  border-width: 10px;
-}
-
-ul li {
-  color: purple;
+.butter {
+  clear: both;
 }

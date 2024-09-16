@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  float: right;
+  width: 50%;
+  text-align: right;
+  background-color: blue;
+}
