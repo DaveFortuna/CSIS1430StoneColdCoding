@@ -2,10 +2,42 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  margin-bottom: 20px;
+  border: solid;
+  font-size: 95px;
+  padding-left: 30px;
+  background-color: palegoldenrod;
+}
 
 ul {
+  list-style-type: none;
+  box-sizing: border-box;
+  height: 200px;
+  width: 100%;
+  background-image: url("https://i.ytimg.com/vi/3zmi61k9XJU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcEHzLiIJm3WwLhbaJbjG18djjbg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+li {
   float: right;
-  width: 50%;
-  text-align: right;
-  background-color: blue;
+  background-color: palevioletred;
+  margin-top: 40px;
+  border-radius: 10%;
+}
+li a:hover {
+  background-color: lightseagreen;
+}
+
+div li {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  display: block;
+  padding: 12px 15px;
+  background-color: palegoldenrod;
+  border: solid;
+  border-width: 5px;
+  border-radius: 20%;
+  margin: 5px;
+  margin-top: 45px;
 }
