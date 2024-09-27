@@ -1,0 +1,204 @@
+.body {
+  /* This creates the remote shape and position center. */
+  border: solid rgb(5, 4, 4) 5px;
+  border-radius: 25px;
+  width: 220px;
+  height: 600px;
+  margin: auto;
+  position: absolute;
+  background-color: silver;
+  left: 50%;
+}
+
+.power,
+.mute,
+.volume {
+  /* make 3 separate circles. Practice changing multiple classe position relative to each other */
+  border: solid black 2px;
+  background-color: red;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 18px;
+  position: relative;
+}
+.power {
+  /* circle for the power button symbol  */
+  top: px;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-width: 4px;
+  box-sizing: border-box;
+  border-color: white;
+}
+.powerb {
+  /* Power button symbol */
+  border: solid red 2px;
+  width: 62px;
+  height: 62px;
+  margin: 5px;
+  background-color: red;
+
+  border-radius: 50%;
+}
+.body .powerb .power .symblep {
+  /* Made the symbols that going inside the power button */
+  position: relative;
+  border: solid white px;
+  border-radius: 30%;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  height: 10px;
+  width: 0;
+  left: 6px;
+  bottom: 8px;
+}
+
+.mute {
+  /* Make a circle in the corner to look like a mute button */
+  border: solid black 2px;
+  background-color: black;
+  height: 45px;
+  width: 45px;
+  margin: 25px;
+  position: absolute;
+  right: 1px;
+  top: 0px;
+}
+
+.volume {
+  /* Make a 4 way button using triangles */
+  display: inline-block;
+  bottom: 15px;
+  left: 25px;
+  height: 0px;
+  width: 0px;
+  border-left: 70px solid gray;
+  border-right: 70px solid gray;
+  border-bottom: 70px solid;
+  border-top: 70px solid;
+}
+.volume > .center {
+  /* This is a circle to imitate a play button in the center of the vol/chan button */
+  display: inline-block;
+  position: relative;
+  border: solid black 5px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  right: 29px;
+  bottom: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.play {
+  position: relative;
+  border: solid red 1px;
+  width: 0px;
+  height: 0px;
+  top: 20px;
+  left: 7px;
+  border-right: 0 solid transparent;
+  border-left: 11px solid white;
+  border-bottom: 6px solid transparent;
+  border-top: 6px solid transparent;
+}
+
+.pause,
+.pause1 {
+  border: solid white 1px;
+  background-color: white;
+  height: 11px;
+  width: 3px;
+  position: relative;
+  float: right;
+  right: 11px;
+  top: 7px;
+  margin: 1px;
+}
+
+.input1,
+.input2,
+.input3,
+.input4 {
+  /* These are rectangles used to imitate the inputs */
+  background-color: lightgray;
+  border: solid black 2px;
+  border-radius: 30%;
+  display: inline-block;
+  justify-content: center;
+  margin: 27px;
+  height: 25px;
+  width: 50px;
+  position: relative;
+  bottom: 35px;
+}
+
+.input5 {
+  /* Rectangle to imitate input */
+  border: solid black 2px;
+  background-color: blue;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  bottom: 157px;
+}
+
+.audio1,
+.audio2,
+.audio3 {
+  display: inline-block;
+  position: relative;
+  border: solid black 2px;
+  background-color: blue;
+  height: 30px;
+  width: 65px;
+  position: relative;
+  border-radius: 20%;
+  bottom: 125px;
+  left: 3px;
+}
+
+.set1,
+.set2,
+.set3,
+.set4,
+.set5 {
+  /* Ovals to look like bass,treb, and reset */
+  display: inline-block;
+  position: relative;
+  border: solid black 2px;
+  background-color: blue;
+  height: 25px;
+  width: 55px;
+  position: relative;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  bottom: 100px;
+  left: 19px;
+}
+.set5 {
+  position: relative;
+  left: 82px;
+}
+.set1 {
+  /* Change color to match remote  */
+  background-color: red;
+}
+.set2 {
+  background-color: green;
+  /* Change color to match remote  */
+}
+.set4,
+.set5 {
+  background-color: black;
+  /* Change color to match remote  */
+}
