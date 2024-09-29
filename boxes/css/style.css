@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
-  /* This creates the remote shape and position center. */
+  /* This creates the remote shape and position center to get it where
+  I want. */
   border: solid rgb(5, 4, 4) 5px;
   border-radius: 25px;
   width: 220px;
@@ -13,7 +19,7 @@
 .power,
 .mute,
 .volume {
-  /* make 3 separate circles. Practice changing multiple classe position relative to each other */
+  /* Make 3 separate circles. Practice changing multiple class' position relative to each other. */
   border: solid black 2px;
   background-color: red;
   height: 65px;
@@ -24,8 +30,7 @@
   position: relative;
 }
 .power {
-  /* circle for the power button symbol  */
-  top: px;
+  /* Circle for the power button symbol.  */
   height: 25px;
   width: 25px;
   background-color: red;
@@ -34,7 +39,8 @@
   border-color: white;
 }
 .powerb {
-  /* Power button symbol */
+  /* Power button symbol. Vertical box border to get the center-line going 
+  through the circle. */
   border: solid red 2px;
   width: 62px;
   height: 62px;
@@ -44,9 +50,9 @@
   border-radius: 50%;
 }
 .body .powerb .power .symblep {
-  /* Made the symbols that going inside the power button */
+  /* Made the symbols that go inside the power button, with 
+  a radius square into a bordered ring. */
   position: relative;
-  border: solid white px;
   border-radius: 30%;
   border-left: 3px solid white;
   border-right: 3px solid white;
@@ -59,7 +65,7 @@
 }
 
 .mute {
-  /* Make a circle in the corner to look like a mute button */
+  /* Change a square into a circle then positioned it into the corner to look like a mute button. */
   border: solid black 2px;
   background-color: black;
   height: 45px;
@@ -71,7 +77,8 @@
 }
 
 .volume {
-  /* Make a 4 way button using triangles */
+  /* This was a square then morphed into a circle. Made the borders
+  thick to add different color to look like a 4-way button.*/
   display: inline-block;
   bottom: 15px;
   left: 25px;
@@ -83,7 +90,7 @@
   border-top: 70px solid;
 }
 .volume > .center {
-  /* This is a circle to imitate a play button in the center of the vol/chan button */
+  /* This is a square with border radius to look like a circle to imitate a play button in the center of the vol/chan button. */
   display: inline-block;
   position: relative;
   border: solid black 5px;
@@ -96,6 +103,8 @@
 }
 
 .play {
+  /* The play button is a square, turned circle then made 3/4 of it
+  invisible to look like a play button triangle. */
   position: relative;
   border: solid red 1px;
   width: 0px;
@@ -110,6 +119,8 @@
 
 .pause,
 .pause1 {
+  /* Here I make the symbols inside the pause button. two vertical 
+  boxes to look like a pause */
   border: solid white 1px;
   background-color: white;
   height: 11px;
@@ -125,7 +136,9 @@
 .input2,
 .input3,
 .input4 {
-  /* These are rectangles used to imitate the inputs */
+  /* These are rectangles with the border radius turned up 
+  to imitate the inputs.
+   */
   background-color: lightgray;
   border: solid black 2px;
   border-radius: 30%;
@@ -139,7 +152,7 @@
 }
 
 .input5 {
-  /* Rectangle to imitate input */
+  /* Rectangle with a radius to imitate input buttons. */
   border: solid black 2px;
   background-color: blue;
   height: 65px;
@@ -153,6 +166,8 @@
 .audio1,
 .audio2,
 .audio3 {
+  /* 3 squarish looking buttons. radius on corners to get the 
+  shape. */
   display: inline-block;
   position: relative;
   border: solid black 2px;
@@ -170,7 +185,9 @@
 .set3,
 .set4,
 .set5 {
-  /* Ovals to look like bass,treb, and reset */
+  /* Ovals to look like bass,treb, and reset buttons
+  Had to get specific with the radius's to get the size
+  I wanted */
   display: inline-block;
   position: relative;
   border: solid black 2px;
