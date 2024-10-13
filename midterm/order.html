@@ -2,19 +2,23 @@
 <html lang="en">
   <head>
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/order.css" />
   </head>
   <body>
+    
     <ul>
-      <li><a href="index.html">Home </a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="order.html">Order</a></li>
-    </ul>
-    <h1>Order Pizza</h1>
-    <p>
+      <heading>Order Pizza</heading>
+      <li id="navmenu"><a href="order.html">Order</a></li>
+      <li id="navmenu"><a href="about.html">About</a></li>
+      <li id="navmenu"><a href="contact.html">Contact</a></li>
+      <li id="navmenu"><a href="index.html">Home </a></li>
+      </ul>
+      
+    
+    <p class="order">
       Order up! Order your pizza here. It's hot and ready when you hit the order
-      button, just takes a little time. Nothing like the present to get yourself
+      button, just takes a little time. No time like the present to get yourself
       a delicious pie. This place makes only pizza and if pizza is what you want
       then pizza is what you will get!
     </p>
@@ -23,180 +27,224 @@
       action="https://www.stonecoldprofessor.com/pizza-order.php"
       method="post"
     >
-      <label for="psize">Pizza Size</label>
-      <select id="psize" name="size" value="psize">
-        <option value="Small">Small</option>
-        <option value="Medium">Medium</option>
-        <option value="Large">Large</option>
-        <option value="X-Large">X-Large</option>
-      </select>
-      <br />
+    <h1>Begin building the pie you need.</h1>
+    <break>
+      <div class="crustsize">
+       <h2>Pizza size selection</h2>
+       <label for="psize">Pizza Size</label>
+       <select id="psize" name="size" value="psize">
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+          <option value="X-Large">X-Large</option>
+       </select>
+      </div>
+      
 
       <h1>Crust Size</h1>
+      <h3>How do you want the crust?</h3>
+      <div class="radio">
 
-      <input type="radio" id="thin" name="crust" value="Thin" />
-      <label for="thin">Thin</label>
-      <input type="radio" id="regular" name="crust" value="Regular" />
-      <label for="regulat">Regular</label>
-      <input type="radio" id="deepdish" name="crust" value="Deep Dish" />
-      <label for="deepdish">Deep Dish</label>
-      <input type="radio" id="stuffed" name="crust" value="Stuffed" />
-      <label for="stuffed">Stuffed</label>
+        <input type="radio" id="thin" name="crust" value="Thin" />
+        <label for="thin">Thin</label>
+        <break>
+        <input type="radio" id="regular" name="crust" value="Regular" />
+        <label for="regulat">Regular</label>
+        <break>
+        
+       <input type="radio" id="deepdish" name="crust" value="Deep Dish" />
+        <label for="deepdish">Deep Dish</label>
+        <input type="radio" id="stuffed" name="crust" value="Stuffed" />
+        <label for="stuffed">Stuffed</label>
+      </div>
 
       <br />
 
       <h1>Toppings</h1>
-      <div>
+      <h3 class="gridhead">Select as many as you want</h3>
+      <div class="grid">
+        <div class="grid-item">
         <input type="checkbox" id="onion" value="onion" name="toppings[]" />
-        <label for="onion">Onion</label>
-        <input
+        <label for="onion" > <img src="https://verbnow.com/wp-content/uploads/2022/07/Red_Onion_-_Final1-735x490.jpg.webp" alt="Onion" width="100px" height="100px"><br>Onion<br></label></div>
+
+
+        <div class=grid-item><input 
           type="checkbox"
           id="pepperoni"
           value="pepperoni"
           name="toppings[]"
-        />
-        <label for="pepperoni">Pepperoni </label>
+        /> 
+        <label for="pepperoni"><img src="https://media.istockphoto.com/id/956147998/vector/slices-of-salami-sausage-vector-illustration.jpg?s=612x612&w=0&k=20&c=GTrdgo2BNFmFQ9YpThDIbNEmgnErNXlQdlv6kHz_gnU=" height="100px" width="100px"><br>Pepperoni<br> </label></div>
 
-        <input type="checkbox" id="burrito" value="burrito" name="toppings[]" />
-        <label for="burrito">Burrito</label>
-        <input type="checkbox" id="cheese" value="cheese" name="toppings[]" />
-        <label for="cheese">Cheese</label>
-        <br />
-        <input type="checkbox" id="olive" value="olive" name="toppings[]" />
-        <label for="Olive">Olive</label>
-        <input
+
+
+        <div class=grid-item><input type="checkbox" id="burrito" value="burrito" name="toppings[]" />
+        <label for="burrito"><img src="https://recipes.net/wp-content/uploads/portal_files/recipes_net_posts/2021-09/easy-mini-burritos-recipe.jpg" width="100px"height="100px"><br>Burrito<br></label></div>
+
+
+          <div class=grid-item><input type="checkbox" id="cheese" value="cheese" name="toppings[]" />
+        <label for="cheese"><img src="https://forum.creative.gimkit.com/uploads/default/original/3X/e/a/eafa088294f2404b0964b64373b49f30c651fd1b.jpeg"width="100px"height="100px"><br>Cheese<br></label></div>
+        
+       
+       
+        <div class=grid-item><input type="checkbox" id="olive" value="olive" name="toppings[]" />
+        <label for="Olive"><img src="https://images.healthshots.com/healthshots/en/uploads/2024/07/10132529/olive-2.jpg"width="100px"height="100px"  > <br>Olive<br></label></div>
+
+
+        <div class=grid-item><input
           type="checkbox"
           id="ice cream"
           value="ice cream"
           name="toppings[]"
         />
-        <lable for="ice cream">Ice Cream</lable>
-        <input
+        <label for="ice cream"><img src="https://cdn.britannica.com/50/80550-050-5D392AC7/Scoops-kinds-ice-cream.jpg"width="100px"height="100px"><br> Ice Cream<br></label></div>
+
+
+
+        <div class=grid-item><input
           type="checkbox"
           id="mushroom"
           value="mushroom"
           name="toppings[]"
         />
-        <label for="mushroom">Mushroom</label>
-        <input type="checkbox" id="bacon" value="bacon" name="toppings[]" />
-        <label for="bacon">Bacon</label>
+        <label for="mushroom"><img src="https://itsavegworldafterall.com/wp-content/uploads/2023/01/Caramelized-Mushrooms-step-1.jpg"width="100px"height="100px"><br>Mushroom<br></label></div>
+
+        <div class=grid-item><input type="checkbox" id="sausage" value="sausage" name="toppings[]" />
+          <label for="sausage"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1TjV2E0k7eUd73l7Zv7f73-1r8XvK8sSDKQ&s"width="100px"height="100px"><br>Sausage<br></label></div>
+
+
+        <div class=grid-item><input type="checkbox" id="bacon" value="bacon" name="toppings[]" />
+        <label for="bacon"><img src="https://www.lemonblossoms.com/wp-content/uploads/2019/01/Bacon-In-The-Oven-S1-1-500x500.jpg"width="100px"height="100px"><br> Bacon<br></label></div>
+        </div>
+
+       
+
       </div>
+
+        
+      
 
       <br />
       <br />
 
       <h1>Delivery and Contact Form</h1>
+      <h3>Let us know how to get you this made to order pie</h3>
+      
+     
+     <div class="contactform">
+       <img
+         src="https://i.insider.com/63cedfe4632494001994666d?width=600&format=jpeg&auto=webp"
+         width="250"
+         height="200">
+        
+       
+      
+        <br>
+      
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first" placeholder="First Name" />
+       <br />
 
-      <img
-        src="https://img.grouponcdn.com/deal/3TKKfkjNj3f56SLd7oYWzAX8S6en/3T-2048x1229/v1/c870x524.webp"
-        width="250"
-        height="200"
-      />
-      <br />
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="first" placeholder="First Name" />
-      <br />
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="last" placeholder="Last Name" />
+        <br />
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="last" placeholder="Last Name" />
-      <br />
+        <label for="daddress">Address</label>
+        <input
+          type="text"
+          id="daddress"
+          name="add1"
+          placeholder="Street Address"
+        />
+        <br />
+        <label for="daddress2">Address2</label>
+       <input
+          type="text"
+          id="daddress2"
+          name="add2"
+          placeholder="Street Address"
+        />
+        <br />
 
-      <label for="daddress">Address</label>
-      <input
-        type="text"
-        id="daddress"
-        name="add1"
-        placeholder="Street Address"
-      />
-      <br />
-      <label for="daddress2">Address2</label>
-      <input
-        type="text"
-        id="daddress2"
-        name="add2"
-        placeholder="Street Address"
-      />
-      <br />
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="City" />
+        <br />
 
-      <label for="city">City</label>
-      <input type="text" id="city" name="city" placeholder="City" />
-      <br />
+        <label for="state">State</label>
+        <select id="state" name="state" value="state">
+          <option value="al">Alabama</option>
+          <option value="ak">Alaska</option>
+          <option value="az">Arizona</option>
+          <option value="ar">Arkansas</option>
+          <option value="ca">California</option>
+          <option value="co">Colorado</option>
+          <option value="ct">Conneticut</option>
+          <option value="de">Delaware</option>
+          <option value="fl">Florida</option>
+          <option value="ga">Georgia</option>
+          <option value="hi">Hawaii</option>
+          <option value="id">Idaho</option>
+          <option value="il">Illinois</option>
+          <option value="in">Indiana</option>
+          <option value="ia">Iowa</option>
+          <option value="ks">Kansas</option>
+          <option value="ky">Kentucky</option>
+          <option value="la">Louisiana</option>
+          <option value="me">Maine</option>
+          <option value="md">Maryland</option>
+          <option value="ma">Massachusetts</option>
+          <option value="mi">Michigan</option>
+          <option value="mn">Minnesota</option>
+          <option value="ms">Mississippi</option>
+          <option value="mo">Missouri</option>
+          <option value="mt">Montana</option>
+          <option value="ne">Nebraska</option>
+          <option value="nv">Nevada</option>
+          <option value="nh">New Hampshire</option>
+          <option value="nj">New Jersey</option>
+          <option value="nm">New Mexico</option>
+          <option value="ny">New York</option>
+          <option value="nc">North Carolina</option>
+          <option value="nd">North Dakota</option>
+          <option value="oh">Ohio</option>
+          <option value="ok">Oklahoma</option>
+          <option value="or">Orgeon</option>
+          <option value="pa">Pennslyvania</option>
+          <option value="ri">Rhode Island</option>
+          <option value="sc">South Carolina</option>
+          <option value="sd">South Dakota</option>
+          <option value="tn">Tennessee</option>
+          <option value="ts">Texas</option>
+          <option value="ut">Utah</option>
+          <option value="vt">Vermont</option>
+          <option value="va">Virgina</option>
+          <option value="wa">Washington</option>
+          <option value="wv">West Virgina</option>
+          <option value="wi">Wisconsin</option>
+          <option value="wy">Wyoming</option>
+        </select>
 
-      <label for="state">State</label>
-      <select id="state" name="state" value="state">
-        <option value="al">Alabama</option>
-        <option value="ak">Alaska</option>
-        <option value="az">Arizona</option>
-        <option value="ar">Arkansas</option>
-        <option value="ca">California</option>
-        <option value="co">Colorado</option>
-        <option value="ct">Conneticut</option>
-        <option value="de">Delaware</option>
-        <option value="fl">Florida</option>
-        <option value="ga">Georgia</option>
-        <option value="hi">Hawaii</option>
-        <option value="id">Idaho</option>
-        <option value="il">Illinois</option>
-        <option value="in">Indiana</option>
-        <option value="ia">Iowa</option>
-        <option value="ks">Kansas</option>
-        <option value="ky">Kentucky</option>
-        <option value="la">Louisiana</option>
-        <option value="me">Maine</option>
-        <option value="md">Maryland</option>
-        <option value="ma">Massachusetts</option>
-        <option value="mi">Michigan</option>
-        <option value="mn">Minnesota</option>
-        <option value="ms">Mississippi</option>
-        <option value="mo">Missouri</option>
-        <option value="mt">Montana</option>
-        <option value="ne">Nebraska</option>
-        <option value="nv">Nevada</option>
-        <option value="nh">New Hampshire</option>
-        <option value="nj">New Jersey</option>
-        <option value="nm">New Mexico</option>
-        <option value="ny">New York</option>
-        <option value="nc">North Carolina</option>
-        <option value="nd">North Dakota</option>
-        <option value="oh">Ohio</option>
-        <option value="ok">Oklahoma</option>
-        <option value="or">Orgeon</option>
-        <option value="pa">Pennslyvania</option>
-        <option value="ri">Rhode Island</option>
-        <option value="sc">South Carolina</option>
-        <option value="sd">South Dakota</option>
-        <option value="tn">Tennessee</option>
-        <option value="ts">Texas</option>
-        <option selected="selected" value="ut">Utah</option>
-        <option value="vt">Vermont</option>
-        <option value="va">Virgina</option>
-        <option value="wa">Washington</option>
-        <option value="wv">West Virgina</option>
-        <option value="wi">Wisconsin</option>
-        <option value="wy">Wyoming</option>
-      </select>
+        <br />
+       <label for="zip">Zip Code</label>
+        <input type="text" id="zip" name="zip" placeholder="Zip Code" />
+        <br />
 
-      <br />
-      <label for="zip">Zip Code</label>
-      <input type="text" id="zip" name="zip" placeholder="Zip Code" />
-      <br />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email Address" />
+        <br />
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number" />
+        <br />
+        <label for="message">Comments/Messages</label>
+        <input
+          type="textarea"
+          id="message"
+          name="comments"
+          placeholder="Message or comments"
+        />
+        <br />
 
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Email Address" />
-      <br />
-      <label for="phone">Phone Number</label>
-      <input type="text" id="phone" name="phone" placeholder="Phone Number" />
-      <br />
-      <label for="message">Comments/Messages</label>
-      <input
-        type="textarea"
-        id="message"
-        name="comments"
-        placeholder="Message or comments"
-      />
-      <br />
-
-      <input type="submit" value="submit" />
+        <input type="submit" value="submit" />
     </form>
   </body>
 </html>

@@ -1,0 +1,91 @@
+body {
+  background-color: tomato;
+  border: solid black 2px;
+}
+
+p.order {
+  position: relative;
+  /* left: 400px; */
+  text-align: center;
+  background-color: tomato;
+  width: 55vw;
+  margin: auto;
+  top: 10px;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 10px;
+  font-family: fantasy;
+  font-size: 45px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  border-top: solid tomato 2px;
+  padding-top: 5px;
+  border: solid black 3px;
+  border-left: transparent;
+  border-right: transparent;
+}
+h3 {
+  position: relative;
+  left: 600px;
+  font-size: 35px;
+}
+
+.radio {
+  position: relative;
+  left: 600px;
+  top: 20px;
+}
+.crustsize {
+  position: relative;
+  left: 700px;
+}
+
+#psize {
+  font-size: 27px;
+  padding: 5px;
+  text-align: center;
+}
+
+label {
+  font-size: 25px;
+}
+
+form {
+  margin-top: 13px;
+  position: relative;
+  font-size: 20px;
+  font-family: Haettenschweiler;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+img {
+  position: relative;
+  border-radius: 15px;
+}
+.grid {
+  position: relative;
+  display: grid;
+  margin-left: 600px;
+  margin-right: 570px;
+  grid-template-columns: 150px 150px 150px;
+  background-color: cornflowerblue;
+  padding: 10px;
+  border-radius: 20px;
+  gap: 5px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+.contactform {
+  position: relative;
+  left: 650px;
+}
