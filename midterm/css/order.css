@@ -1,6 +1,7 @@
 body {
   background-color: tomato;
   border: solid black 2px;
+  width: 100%;
 }
 
 p.order {
@@ -27,26 +28,37 @@ h1 {
   border-left: transparent;
   border-right: transparent;
 }
+h2 {
+  position: relative;
+  font-size: 40px;
+  width: 500px;
+  left: 650px;
+}
 h3 {
   position: relative;
-  left: 600px;
   font-size: 35px;
+  width: 500px;
+  left: 600px;
 }
 
 .radio {
   position: relative;
-  left: 600px;
   top: 20px;
+  width: 500px;
+  left: 600px;
 }
 .crustsize {
   position: relative;
+  width: 300px;
   left: 700px;
 }
 
 #psize {
+  position: relative;
   font-size: 27px;
   padding: 5px;
   text-align: center;
+  width: 220px;
 }
 
 label {
@@ -87,5 +99,7 @@ img {
 }
 .contactform {
   position: relative;
-  left: 650px;
+  /* left: 650px; */
+  width: 480px;
+  left: 630px;
 }
