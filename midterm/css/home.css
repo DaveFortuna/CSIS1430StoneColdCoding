@@ -12,7 +12,7 @@ h1 {
   width: 600px;
   left: 220px;
 }
-p {
+p.home {
   margin: 10px;
   width: 50%;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
