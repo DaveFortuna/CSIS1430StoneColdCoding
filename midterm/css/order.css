@@ -32,25 +32,25 @@ h2 {
   position: relative;
   font-size: 40px;
   width: 500px;
-  left: 650px;
+  left: 600px;
 }
 h3 {
   position: relative;
   font-size: 35px;
   width: 500px;
-  left: 600px;
+  left: 520px;
 }
 
 .radio {
   position: relative;
   top: 20px;
-  width: 500px;
+  width: 450px;
   left: 600px;
 }
 .crustsize {
   position: relative;
   width: 300px;
-  left: 700px;
+  left: 650px;
 }
 
 #psize {
@@ -78,10 +78,13 @@ img {
   border-radius: 15px;
 }
 .grid {
+  box-sizing: border-box;
+  width: 480px;
+  height: 520px;
   position: relative;
+  left: 500px;
   display: grid;
-  margin-left: 600px;
-  margin-right: 570px;
+  /* margin-right: auto; */
   grid-template-columns: 150px 150px 150px;
   background-color: cornflowerblue;
   padding: 10px;
