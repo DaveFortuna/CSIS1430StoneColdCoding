@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body,
+.keyboard {
+  font-family: Lora;
+  font-weight: 700;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  border: solid #d3d6da 1px;
+  width: 100%;
+  height: 40px;
+}
+h1 {
+  text-align: center;
+}
+.hamburger,
+.gear,
+.mark,
+.graph {
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+.gear,
+.mark,
+.graph {
+  float: right;
+  padding-right: 3px;
+}
+
+.grid-container {
+  margin: 150px auto 0;
+  display: grid;
+  width: 250px;
+  height: 300px;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
+  gap: 3px;
+}
+.grid-item {
+  border: solid #d3d6da 1px;
+}
+
+.keyboard {
+  margin-top: 150px;
+}
+
+.one {
+  margin-top: 100px;
+}
+
+.one,
+.two,
+.three {
+  display: flex;
+  border: solid transparent 2px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+.row-one,
+.row-two,
+.row-three {
+  font-size: 10px;
+  border-radius: 2px;
+  width: 30px;
+  height: 40px;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #d3d6da;
+}
+.enter,
+.delete {
+  width: 50px;
+}
+.delete img {
+  height: 18px;
+  width: 18px;
+}
