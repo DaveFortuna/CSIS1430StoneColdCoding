@@ -1,8 +1,10 @@
-var userInput1 = prompt("Enter a number");
-var userInput2 = prompt("Enter a number");
+// var name = prompt("name");
+// var age = prompt("age");
+// alert("hi" + name + "you are" + age + "years old");
 
-console.log(add(suerInput1, userInput2));
-
-function add(num1, num2) {
-  return parseInt(num1) + parseInt(num2);
+function display() {
+  var name = documnet.getelementById("name").value;
+  var age = documnet.getelementById("age").value;
+  document.getElementById("output").textContent =
+    "hi" + name + "you are" + age + "years old";
 }

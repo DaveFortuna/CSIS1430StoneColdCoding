@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.backgroundImage {
+  background-image: url(../img/lottery.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  /* position: center;
+  background-position-y: center; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerImage {
+  background-image: url(../img/redBackground.jpg);
+  width: 612px;
+  height: 275px;
+  background-size: 100% 100%;
+  border-radius: 25px;
+  border: solid tomato 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  text-align: center;
+  color: lawngreen;
+  font-size: 27px;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: tomato;
+  padding: 5px;
+}
