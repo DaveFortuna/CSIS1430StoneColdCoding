@@ -1,9 +1,0 @@
-.grid {
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  gap: 10px;
-  border: solid red 1px;
-}
-.stuff {
-  border: solid green 1px;
-}

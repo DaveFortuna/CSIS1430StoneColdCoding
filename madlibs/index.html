@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <script src="js/script.js" defer></script>
+    <title>Mad Lib</title>
+  </head>
+  <body>
+    <h1>Mad Lib Space Ship</h1>
+    <div  class="columns"><button id="shuffle" onclick="fillInputs();">Shuffle</button></div>
+    <div class="show columns" id="container">
+      <form id="myForm" action="javascript:void(0);">
+        <input type="text" id="noun1" placeholder="Noun" />
+        <tag for="noun1">Noun</tag>
+
+        <input type="text" id="pluralNoun1" placeholder="Plural Noun" />
+        <tag for="pluralNoun1">Plural Noun</tag>
+        <input
+          type="text"
+          id="ing1"
+          placeholder="Verb ending in &ldquo;ing&rdquo; "
+        />
+
+        <tag for="ing1">Verb ending in "ing"</tag>
+
+        <input type="text" id="pluralNoun2" placeholder="Plural Noun" />
+        <tag for="pluralNoun2">Plural Noun</tag>
+
+        <input type="text" id="city1" placeholder="City" />
+        <tag for="city1">City</tag>
+        <input type="text" id="pluralNoun3" placeholder="Plural Noun" />
+        <tag for="pluralNoun3">Plural Noun</tag>
+        <input type="text" id="adjective1" placeholder="Adjective" />
+        <tag for="adjective1">Adjective</tag>
+        <input type="text" id="noun2" placeholder="Noun" />
+        <tag for="noun2">Noun</tag>
+        <input type="text" id="number1" placeholder="Number" />
+        <tag for="number1">Number</tag>
+        <input type="text" id="noun3" placeholder="Noun" />
+        <tag for="noun3">Noun</tag>
+        <input type="text" id="adjective2" placeholder="Adjective" />
+        <tag for="adjective2">Adjective</tag>
+        <input type="text" id="verb1" placeholder="Verb" />
+        <tag for="verb1">Verb</tag>
+        <input type="text" id="verb2" placeholder="Verb" />
+        <tag for="verb2">Verb</tag>
+        <input type="text" id="pluralNoun4" placeholder="Plural Noun" />
+        <tag for="pluralNoun4">Plural Noun</tag>
+        <input
+          type="text"
+          id="ing2"
+          placeholder="Verb ending in &ldquo;ing&rdquo; "
+        />
+        <tag for="ing2">Verb ending in "ing"</tag>
+        <input type="text" id="number2" placeholder="Number" />
+        <tag for="number2">Number</tag>
+        <input type="text" id="adVerb1" placeholder="Adverb" />
+        <tag for="adverb1">Adverb</tag>
+        <input type="text" id="noun4" placeholder="Noun" />
+        <tag for="noun4">Noun</tag>
+        <input type="text" id="adjective3" placeholder="Adjective" />
+        <tag for="adjective3">Adjective</tag>
+        <input
+          id="send"
+          type="submit"
+          onclick="getValue(), display()"
+          value="Mad Lib!"
+        />
+      </form>
+    </div>
+   <div> <p class="hide" id="madLib">
+      In 1981, the U.S launched the first real Space <span id="n1"></span>. It
+      was name Columbia and was piloted by two brave <span id="pn1"></span>.
+      They had practiced <span id="ing1"></span> for two years and were expert
+      <span id="pn2"></span>. Columbia took off from <span id="c1"></span> using
+      its powerful first-stage <span id="pn3"></span> and soared off into the
+      <span id="a1"></span> blue <span id="n2"></span>. At an altitude of
+      <span id="num1"></span> feet, it went into orbit around the
+      <span id="n3"></span>. For people watching from Earth,it was a/an
+      <span id="a1"></span> sight to <span id="v2"></span>! Who could really
+      <span id="v1"></span> that there were two <span id="pn4"></span> in space?
+      It was mind<span id="ing2"></span>. After <span id="num2"></span> orbits,
+      the shuttle landed <span id="av1"></span> at an air force
+      <span id="n4"></span>. It was a/an <span id="a2"></span> day for the U.S
+      Space Program.
+     <div> <button class="hide" id="reload" onclick="window.location.reload()">Refresh</button></div>
+    </p></div>
+  </body>
+</html>
