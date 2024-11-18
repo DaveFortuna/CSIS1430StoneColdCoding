@@ -47,7 +47,7 @@ h1 {
 }
 #myForm {
   margin: 0 auto;
-  width: 359px;
+  width: 360px; /* changed with here  */
   /* box-shadow: 5px 5px 5px rgb(0 0 0 / 70%); */
   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.74);
   border-radius: 5px;
@@ -59,6 +59,7 @@ h1 {
   border-radius: 3px;
 }
 #send {
+  margin-left: 5px;
   padding: 3px;
   font-size: 15px;
   border: solid gray 2px;
