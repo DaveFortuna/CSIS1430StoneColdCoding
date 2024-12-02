@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1 id="headLine">Tic Tac Toe</h1>
+    <div id="turnDicator"><p id="turnBanner"></p></div>
+
+    <div id="container">
+      <div id="score0" class="pTurn">
+        <div>
+          <h3 id="pname0"></h3>
+        </div>
+        <div id="turn0" class="stats0">
+          <p id="win0">Win: 0</p>
+          <p id="tie0">Tie: 0</p>
+        </div>
+      </div>
+
+      <div id="innerContainer">
+        <div onclick="playGame(this,1)" id="0" class="boxes1"></div>
+        <div onclick="playGame(this,2)" id="1" class="boxes2"></div>
+        <div onclick="playGame(this,4)" id="2" class="boxes3"></div>
+        <div onclick="playGame(this,8)" id="3" class="boxes4"></div>
+        <div onclick="playGame(this,16)" id="4" class="boxes5"></div>
+        <div onclick="playGame(this,32)" id="5" class="boxes6"></div>
+        <div onclick="playGame(this,64)" id="6" class="boxes7"></div>
+        <div onclick="playGame(this,128)" id="7" class="boxes8"></div>
+        <div onclick="playGame(this,256)" id="8" class="boxes9"></div>
+      </div>
+      <div id="score1">
+        <div>
+          <h3 id="pname1"></h3>
+        </div>
+        <div id="turn1" class="stats1">
+          <p id="win1">Win: 0</p>
+          <p id="tie1">Tie: 0</p>
+        </div>
+      </div>
+    </div>
+    <button onclick="rematch()" class="hide" id="replay">Play again</button>
+  </body>
+</html>
