@@ -1,6 +1,14 @@
-div {
-  background-color: blue;
+#pink {
+  border: solid pink 3px;
+  border-radius: 50%;
   width: 200px;
-  aspect-ratio: 1;
-  margin: 10px;
+  height: 200px;
+  background-color: pink;
+}
+#butt {
+  height: 50px;
+  width: 50px;
+}
+.other {
+  background-color: navy;
 }

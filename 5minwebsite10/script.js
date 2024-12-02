@@ -1,7 +1,4 @@
-var divs = "";
-
-for (i = 1; i <= 10; i++) {
-  divs += "<div></div>";
+function changeColor() {
+  var body = document.getElementById(body);
+  body.className = "other";
 }
-
-document.getElementById("body").innerHTML = divs;
