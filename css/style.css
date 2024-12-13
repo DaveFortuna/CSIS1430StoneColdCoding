@@ -95,3 +95,14 @@ body {
     left: 100%;
   }
 }
+
+@media (max-width: 1000px) {
+  @keyframes fly {
+    from {
+      left: 0;
+    }
+    to {
+      left: 90%;
+    }
+  }
+}
