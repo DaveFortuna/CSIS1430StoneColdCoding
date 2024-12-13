@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-image: url("../img/bluesky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Merriweather;
+}
+.intro {
+  margin-top: 38px;
+  border: solid black 0.5px;
+  width: 300px;
+  padding: 10px;
+  height: 470px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 7px rgba(45, 78, 250, 0.8);
+}
+.between {
+  margin-top: 15px;
+  margin: 25px;
+  width: 500px;
+  height: 425px;
+  padding: 15px;
+}
+.change {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(45, 86, 226, 0.74);
+}
+.change:hover {
+  box-shadow: 0px 0px 15px 7px rgba(236, 202, 159, 0.74);
+}
+#quote {
+  margin-top: 10px;
+  /* border: solid red 2px; */
+  height: 180px;
+}
+.button {
+  background-color: transparent;
+  border: transparent;
+  color: transparent;
+  border-radius: 50%;
+}
+.welder {
+  margin-top: 15px;
+  border: solid black 0.5px;
+  width: 350px;
+  padding: 15px;
+  height: 495px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 7px rgba(45, 78, 250, 0.8);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 80vw;
+  height: fit-content;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(87, 122, 241), skyblue);
+  box-shadow: 0px 0px 15px 7px rgba(104, 135, 238, 0.74);
+}
+.job {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 7px rgba(215, 215, 215, 0.74);
+}
+
+#plane {
+  width: 100px;
+  height: 50px;
+  background-image: url("../img/plane.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  left: 0;
+  animation: fly 7s linear infinite;
+}
+
+@keyframes fly {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}

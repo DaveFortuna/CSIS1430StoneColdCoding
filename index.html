@@ -1,13 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
     <title>CSIS 1430</title>
   </head>
   <body>
-    <h1>This is David Fortuna's page</h1>
-    <p>
-      By the End of the semester, this page will be my FINAL PROJECT with links
-      to ALL OF MY PROJECTS
-    </p>
+    <blockquote class="blockquote text-center">
+      <p class="mb-0 h1 bg-gradient-info p-3 text-monospace">David Fortuna CSIS1430</p>
+    <nav class="navbar navbar-expand navbar-light bg-gradient-primary">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+        <ul class="navbar-nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reflection</a>
+            
+        
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu bg-primary">
+              <li class="dropdown-item bg-gradient-primary">
+                <a class="nav-link  text-dark" href="tables/index.html">Youtube Page </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="superheroes/index.html">Super heroes</a>
+                </li>  
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark " href="boxes/index.html">Little Boxes</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="horizontal/index.html">Horizontal Menu</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="pizza-1/index.html">Pizza Midterm</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="photoshop/index.html">Photoshop to Code</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="birthday/index.html">Happy Birthday JS</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="lotto/index.html">Lottery Number Generator</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="madlibs/index.html">Mad Libs</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="pizza-strap/index.html">Pizza Strap</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="nav-link text-dark" href="ttt/index.html">Tic Tac Toe</a>
+                </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="plane"></div>
+    <div class="flex">
+      <p class="intro">
+        It is the end of the semester. How the time flys when you are having fun. Here on the home page. I have provided links to all of my class projects. Witness my journey, as I learn to become a front end developer. 
+         <img class="job" src="img/student.avif" > 
+      </p>
+      <div class="between">
+        <button onclick="quoteChange(), play()" id="mybutton" class="button">
+          <img  class="change" src="img/change.jpg">
+        </button>  
+        <p id="quote">Click sign for quote.</p>
+      </div>
+      
+      <p class="welder">
+        It is the start of a new beginning. A transition from a welder in the boat repair industry. Now to the next new big and fun things. That are just around the corner.
+      <img class="job" src="img/welder.jpg" >
+      </p>
+      <div></div>
+    </div>
+   
   </body>
 </html>
